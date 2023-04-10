@@ -15,15 +15,15 @@ import java.util.List;
 
 @Controller
 public class RestApiApplication {
-//    @RequestMapping(value = "/" , method = RequestMethod.GET)
-//    public ResponseEntity<String> home(){
-//        return  new ResponseEntity<>("Home ", HttpStatus.OK);
-//    }
-//    @RequestMapping("/list")
-//    public List<String> home(){
-//        List<String> list = new ArrayList<>();
-//        list.addAll( Arrays.asList("A","B","C"));
-//        return  list;
-//    }
+    @RequestMapping(value = "/" , method = RequestMethod.GET)
+    public ResponseEntity<String> hom1e(){
+        return  new ResponseEntity<>("Home ", HttpStatus.OK);
+    }
+    @RequestMapping("/list")
+    public List<String> home(){
+        List<String> list = new ArrayList<>();
+        list.addAll( Arrays.asList("A","B","C"));
+        return  list;
+    }
 
 }
