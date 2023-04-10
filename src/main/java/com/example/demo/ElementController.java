@@ -18,6 +18,6 @@ public class ElementController  {
         elements.add("B");
         elements.add("C");
         return elements;
-//        complete
+//        completed
     }
 }
