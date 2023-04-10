@@ -8,10 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/students")
 public class StudentController {
-
-    @GetMapping
+    @GetMapping("/students")
     public List<Student> getStudents() {
         List<Student> students = new ArrayList<>();
         students.add(new Student("John", 20));
